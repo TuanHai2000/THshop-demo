@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+
+h1{
+    color:red;
+}
+
+.clear{
+    clear: both;
+}
+
+.wrapper{
+    border:1px solid #ccc;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.admin_menu{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content:center;
+
+}
+
+.admin_menu-link{
+    text-decoration: none;
+    padding: 5px 6px;
+    background-color: rgb(238 77 45);
+    color: white;
+    font-size: 1.2rem;
+    font-weight:300;
+}
+.admin_menu-link:hover{
+    color: rgb(209, 208, 208);
+}
+
+.title_admin{
+    text-align: center;
+    font-size:2rem;
+    font-weight: 400;
+    padding: 20px;
+    cursor:default;
+}
+
+
+
+textarea{
+    width: 100%;
+}
